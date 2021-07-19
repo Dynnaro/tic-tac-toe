@@ -1,0 +1,103 @@
+body{
+	background-color: black;
+}
+table{
+	size:200%;
+	text-align: center; 
+}
+#title{
+	text-align: center;
+	color:#00FFFF;
+	font-size: 350%;
+	border: 5px solid #00FFFF;
+	background-color: black; 
+}
+	
+.tds{
+	border: 5px solid white; 
+	height: 150px;
+}
+#bod{
+	border:5px solid black;
+	margin-left: 200px;
+	margin-right: 200px;
+    background-color: black;
+}
+#p{
+	color:#7F00FF;
+	font-size: 200%;
+	text-align: center;
+	visibility: visible;
+}
+#instructions{
+	padding-left:300px;
+	padding-right: 300px;
+}
+#choicex{
+width: 100px;
+height: 100px;
+visibility: visible;
+text-align: center;
+}
+#choiceo{
+	width: 100px;
+	height: 100px;
+	float: right;
+	visibility: visible;
+}
+#xturn{
+text-align: center;
+visibility: hidden;
+border:5px solid red;
+background-color: white;
+color:red;
+float: left;
+padding: 10px;
+}
+#oturn{
+	text-align: center;
+	visibility: hidden;
+	color:green;
+	border:5px solid green;
+	background-color: white;
+	float: right;
+	padding: 10px;
+}
+#table{
+	visibility: hidden;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.ixo{
+	visibility:hidden;
+	height: 100px;
+	width: 100px;
+	
+}
+#xwon{
+visibility: hidden;
+text-align: center;
+color: white;
+border:5px solid white;
+background-color: red;
+margin-left: 400px;
+margin-right: 400px;
+}
+#owon{
+	visibility: hidden;
+	text-align: center;
+	color: white;
+border:5px solid white;
+background-color: green;
+margin-left: 400px;
+margin-right: 400px;
+}
+#draw{
+visibility: hidden;
+text-align: center;
+color: white;
+border:5px solid white;
+background-color: blue;
+margin-left: 400px;
+margin-right: 400px;
+}

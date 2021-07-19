@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+<div id="bod">
+<h1 id="title" >Tic Tac Toe</h1>
+<h2 id="p" >Player 1 please choose which one you want to start with ?</h2><br>
+<div id="instructions">
+<img id="choicex"src="Image/x.png" onclick="choix(1);" id="cx" > 
+<img id="choiceo"src="Image/o.png" onclick="choix(2);" id="cx" > <br>
+</div>
+<div id="turns">
+<h2 id="xturn">x's turn</h2><h2 id="oturn"style="">o's turn</h2>
+</div>
+<div id="table">
+<table>
+  <tr>
+    <td class="tds" id="t0" onclick="inp(0);turn();test(0);result();"> <img class="ixo" id="0x" src="Image/x.png" ><img class="ixo"id="0o" src="Image/o.png" > </td>
+
+    <td class="tds" id="t1"onclick="inp(1);turn();test(1);result();"> <img class="ixo" id="1x" src="Image/x.png" > <img class="ixo" id="1o"src="Image/o.png" ></td> 
+
+    <td class="tds" id="t2" onclick="inp(2);turn();test(2);result();"> <img class="ixo" id="2x" src="Image/x.png" > <img class="ixo" id="2o"src="Image/o.png" ></td>
+
+  </tr>
+  <tr>
+    <td class="tds" id="t3" onclick="inp(3);turn();test(3);result();"> <img class="ixo" id="3x"src="Image/x.png" ><img class="ixo" id="3o"src="Image/o.png" ></td>
+
+    <td class="tds" id="t4" onclick="inp(4);turn();test(4);result();"> <img class="ixo" id="4x"src="Image/x.png" ><img class="ixo" id="4o"src="Image/o.png" ></td>
+
+    <td class="tds" id="t5"onclick="inp(5);turn();test(5);result();"> <img class="ixo" id="5x"src="Image/x.png" ><img class="ixo" id="5o"src="Image/o.png" ></td>
+
+  </tr>
+  <tr>
+    <td class="tds" id="t6"onclick="inp(6);turn();test(6);result();"> <img class="ixo" id="6x"src="Image/x.png" ><img class="ixo" id="6o"src="Image/o.png" ></td>
+
+    <td class="tds" id="t7"onclick="inp(7);turn();test(7);result();"> <img class="ixo" id="7x"src="Image/x.png" ><img class="ixo" id="7o"src="Image/o.png" ></td>
+
+    <td class="tds" id="t8"onclick="inp(8);turn();test(8);result();"> <img class="ixo" id="8x"src="Image/x.png" ><img class="ixo" id="8o"src="Image/o.png" ></td>
+
+  </tr>
+</table>
+</div>
+<h1 id="xwon">X WON!</h1>
+<h1 id="owon">O WON!</h1>
+<h1 id="draw">Draw</h1>
+<button id="restart"style="visibility: hidden; position: absolute;" onclick="Restart()">Restart</button>
+</div>
+</body>
+</html>
